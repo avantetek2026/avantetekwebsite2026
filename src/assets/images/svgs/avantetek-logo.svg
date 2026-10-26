@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Avante Tek</title>
+  <desc id="desc">Avante Tek logo with a blue and cyan stylized A symbol and blue and silver wordmark.</desc>
+  <defs>
+    <linearGradient id="blueMetal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#35D8FF"/>
+      <stop offset="0.28" stop-color="#087BFF"/>
+      <stop offset="0.58" stop-color="#063DE0"/>
+      <stop offset="0.82" stop-color="#087DFF"/>
+      <stop offset="1" stop-color="#00D9FF"/>
+    </linearGradient>
+    <linearGradient id="cyanRibbon" x1="0" y1="0" x2="1" y2="0.8">
+      <stop offset="0" stop-color="#0646E8"/>
+      <stop offset="0.35" stop-color="#13D7FF"/>
+      <stop offset="0.62" stop-color="#087BFF"/>
+      <stop offset="1" stop-color="#0535C9"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8EDF4"/>
+      <stop offset="0.42" stop-color="#9AA7B8"/>
+      <stop offset="0.72" stop-color="#F5F7FA"/>
+      <stop offset="1" stop-color="#7B8797"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-15%" width="120%" height="135%">
+      <feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#12336D" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <!-- Stylized A mark: clean vector shapes designed to remain legible at small sizes. -->
+  <g transform="translate(22 22)" filter="url(#softShadow)">
+    <path d="M12 236 L147 18 L282 236 L224 236 L147 111 L70 236 Z" fill="url(#blueMetal)" stroke="#087BFF" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M143 111 C119 132 125 151 158 165 L211 188 C232 197 234 213 213 226 L155 236 L217 236 C263 219 263 191 227 171 L169 141 C149 131 145 121 159 109 Z" fill="url(#cyanRibbon)" stroke="#0342C8" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M147 18 L166 49 L282 236 L258 236 L147 63 L36 236 L12 236 Z" fill="none" stroke="#58E7FF" stroke-opacity="0.75" stroke-width="2"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="126" letter-spacing="-5">
+    <text x="338" y="204" fill="url(#blueMetal)">Avante</text><text x="790" y="204" fill="url(#silver)">Tek</text>
+  </g>
+</svg>

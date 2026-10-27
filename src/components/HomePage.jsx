@@ -28,12 +28,16 @@ function HomePage({ onNavigate }) {
           </div>
           <div className="hero-float-card hero-float-card-bottom">
             <strong>01</strong>
-            <span>Human-led<br />search</span>
+            <span>
+              Human-led
+              <br />
+              search
+            </span>
           </div>
         </div>
         <div className="hero-content">
           <p className="eyebrow light">
-            <span /> People. Potential. Progress.
+            <span /> Technology. Talent. Tomorrow.
           </p>
           <h1>
             Better people.

@@ -279,7 +279,7 @@ function HomePage({ onNavigate }) {
               <MessageCircle size={18} /> info@avantetek.com
             </a>
             <a href="tel:+919313935507">
-              <Phone size={18} /> +91 931 393 5507
+              <Phone size={18} /> +91 7984988513
             </a>
           </div>
         </div>

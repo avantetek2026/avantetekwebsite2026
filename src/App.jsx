@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HomePage from "./components/HomePage";
 import RoutedPage from "./components/RoutedPage";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [pathname, setPathname] = useState(window.location.pathname);
@@ -56,6 +57,7 @@ function App() {
         <RoutedPage pathname={pathname} onNavigate={navigateTo} />
       )}
       <Footer onNavigate={navigateTo} />
+      <Analytics />
     </div>
   );
 }
